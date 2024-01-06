@@ -6,15 +6,31 @@ This is a typescript project with unit test
 
 ## Dependencies
 
-- **@types/jest:** ^29.5.11
-- **jest:** ^29.7.0
-- **ts-jest:** ^29.1.1
-- **ts-node:** ^10.9.2
-- **typescript:** ^5.3.3
+- `jest`: Testing framework.
+- `ts-jest`: TypeScript preprocessor for Jest.
+- `ts-node`: TypeScript execution environment for Node.js.
+- `typescript`: TypeScript compiler.
+- `@types/jest`: TypeScript types for Jest.
 
-## Setup
+## Quick Start
 
-1. Clone the repository:
+### Clone the repository
 
-   ```bash
-   git clone <repository-url>
+```
+git clone https://github.com/Kornkanokdevweb/PRIMO-Pre-test
+```
+### Installing
+Install the project dependencies using npm:
+```
+npm install
+```
+### Running the Code
+To execute the TypeScript code, use the following command:
+```
+npm start
+```
+### Running Unit Tests
+To run the unit tests, use the following command:
+```
+npm test
+```   
